@@ -1,0 +1,150 @@
+.navbar-expand-lg {
+   
+    font: 17px 'Montserrat', sans-serif;
+    background: linear-gradient(to right,  #065296 0%, #45a1e2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45a1e2',endColorstr='#f3931b',GradientType=1 ); }
+  
+  .header-wrapper {
+    display: -ms-flexbox;
+    
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  
+  .navbar-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center; }
+  
+  .navbar-inner {
+    padding: 0;
+    background: transparent; }
+  
+  .navbar-expand-lg .navbar-nav > li {
+    padding: 11px 0 15px 0;
+    border-top: 4px solid transparent; }
+  
+  .navbar-expand-lg .navbar-nav > li.active {
+    border-top: 4px solid #fff; }
+  
+  .navbar-expand-lg .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600; }
+    .navbar-brand {
+        font-size: 16px; }
+      
+      .navbar-expand-lg .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 14px 8px !important; }
+
+        .navbar-toggle {
+            background-color: #ffffff; }
+          
+          .navbar-collapse.in.collapse {
+            margin-top: 15px; }
+         
+            
+/*   css for search bar */
+.button {
+	display: inline-block;
+	margin: 4px 2px;
+	background-color: #444;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: black;
+	color: white;
+}
+
+.search-container {
+	position: relative;
+	display: inline-block;
+	margin: 2px 2px;
+	height: 35px;
+	width: 40px;
+	vertical-align: bottom;
+  left: 350px;
+}
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 32px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+  background: transparent;
+  
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: black;
+	color: white;
+}
+
+.search {
+	position: absolute;
+	left: 29px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+	background-color: white;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 5;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 250px; /* Bar width+1px */
+	padding: 0 5px 0 0;
+}
+
+.expandright {
+	left: auto;
+	right: 30px; /* Button width-1px */
+}
+
+.expandright:focus {
+	padding: 0 0 0 0px;
+}
+
+.navbar-toggler{
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,327 @@
+<div  class="col-lg-12">
+ 
+  <!-- Modal -->
+  <div class="modal fade" [ngClass]="{'show':showModal}" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document" >
+      <div class="modal-content">
+        <div class="modal-header modal-default">
+          <div class="pull-left"><img src="assets/popuplogo.jpg" style="margin-left:10px;margin-top:5px;height:50px;">
+          </div>
+         
+          <h3  class="modal-title" style="margin-left: 150px;" id="exampleModalLabel">Block Transaction Details</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead >
+                  <tr >
+                    <th scope="col">Height</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">TXS</th>
+                    <th scope="col">AMOUNT</th>
+                    <th scope="col">FEE</th>
+                    <th scope="col">GENERATOR</th>
+                    <th scope="col">TIMESLAP</th>
+                    <th scope="col">TARGET</th>
+    
+    
+    
+                  </tr>
+                </thead>
+                <tbody >
+                  <tr>
+                    <th  class="row "scope="row">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" (click)="showModalDetails" data-toggle="modal" data-target="#exampleModalDetails">
+                        774837
+                      </button></th>
+                    <td>514469286</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>XIN-YR47-K</td>
+                    <td>2021-20T	</td>
+                    <td>1186.88 %</td>
+    
+    
+                  </tr>
+                </tbody>
+              </table>
+
+              
+
+            </div>
+          </div>
+       
+        <div class="modal-footer">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal -->
+    <div class="modal fade" [ngClass]="{'show':showModalDetails}" id="exampleModalDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content">
+          <div class="modal-header modal-default">
+            <div class="pull-left"><img src="assets/popuplogo.jpg" style="margin-left:10px;margin-top:5px;height:50px;">
+            </div>
+           
+            <h3 class="modal-title" style="margin-left: 250px;" id="exampleModalLabel">Block Details</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div  class="modal-body">
+
+            <div class="col-md-12 static-stats-wrapper ">
+              <div class="row text-center block-blocks" style="margin:0 -5px 0 -5px;">
+                <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+                  <p> Block Time </p>
+         
+                 <p class="box"> avg. 60s </p>
+                 
+               </div>
+               <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+                <p> Block Time </p>
+       
+               <p class="box"> avg. 60s </p>
+               
+             </div>
+             <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+              <p> Block Time </p>
+     
+             <p class="box"> avg. 60s </p>
+             
+           </div>
+           <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+            <p> Block Time </p>
+   
+           <p class="box"> avg. 60s </p>
+           
+         </div>
+         <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+          <p> Block Time </p>
+ 
+         <p class="box"> avg. 60s </p>
+         
+       </div>
+       <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+        <p> Block Time </p>
+
+       <p class="box"> avg. 60s </p>
+       
+     </div>
+     <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+      <p> Block Time </p>
+
+     <p class="box"> avg. 60s </p>
+     
+   </div>
+   <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+    <p> Block Time </p>
+
+   <p class="box"> avg. 60s </p>
+   
+ </div>
+ <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+  <p> Block Time </p>
+
+ <p class="box"> avg. 60s </p>
+ 
+</div>
+<div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+                  <p> Block Time </p>
+         
+                 <p class="box"> avg. 60s </p>
+                 
+               </div>
+               <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+                  <p> Block Time </p>
+         
+                 <p class="box"> avg. 60s </p>
+                 
+               </div>
+               <div class="col-lg-4 col-md-12 col-sm-12 block-explorer">
+                  <p> Block Time </p>
+         
+                 <p class="box"> avg. 60s </p>
+                 
+               </div>
+           
+              </div>
+            </div>
+           
+            </div>
+            <div class="row">
+              <div class="block-btns">
+                <button type="button" class="btn btn-default btn-md"  > Public Key </button>
+            <button type="button" class="btn btn-default btn-md"> Payload  </button>
+            <button type="button" class="btn btn-default btn-md">  Signature  </button>
+            <button type="button" class="btn btn-default btn-md">   Previous Block  </button>
+            <button type="button" class="btn btn-default btn-md">   Block Signature </button>
+            <br><br>
+              </div>
+            </div>
+         
+          <div class="modal-footer">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div style="background-color: white;" class="border border-light p-3 mb-4">
+    <p class="actv-node">Recent Blocks</p>
+
+    <div class="pull-right">
+      <div class="btn-group">
+    <span class="reload-btn btn btn-infinity btn-xs navbar-btn" style="display: inline-block;" type="label" >
+      Reload <i class="fa fa-refresh" aria-hidden="true"></i>
+  </span>
+          
+    </div>
+    </div>
+  
+  </div>
+  
+  <div class="tablebackground">
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Height</th>
+                <th scope="col">ID</th>
+                <th scope="col">TXS</th>
+                <th scope="col">AMOUNT</th>
+                <th scope="col">FEE</th>
+                <th scope="col">GENERATOR</th>
+                <th scope="col">TIMESLAP</th>
+                <th scope="col">TARGET</th>
+
+
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th  class="row "scope="row">
+                  <!-- Button trigger modal -->
+                  <button  type="button" class="btn btn-primary" (click)="showModal" data-toggle="modal" data-target="#exampleModal">
+                    774837
+                  </button></th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+              <tr>
+                <th class="row "scope="row">1946638</th>
+                <td>514469286325090824</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>XIN-YR47-KX7H-LBMJ-FWD55</td>
+                <td>2021-02-20T14:30:54	</td>
+                <td>1186.88 %</td>
+
+
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+</div>

@@ -1,0 +1,56 @@
+.static-stats-wrapper {
+    margin-top: 40px;
+    z-index: 1;
+    float: none; }
+
+.block {
+   
+    padding: 5px;
+    border-color: black;
+
+}
+p{margin:0;}
+
+        
+    
+    
+         .block-explorer {
+            padding: 5px; }
+   
+   .block-explorer .card {
+    border-bottom: 3px solid #065296;
+    border-radius: 6px !important;
+    background-color:#FFFFFF;
+    padding: 15px 0;
+     }
+    .block-explorer .card .card-header{
+        border: 0;
+       
+        background-color:#FFFFFF;
+
+    }
+   
+    .card-body {  
+        }
+   
+
+       
+            
+               
+
+   .icon{
+       width: 40px;
+       height: 40px;
+       color: #065296;
+   }
+   .innertext{
+       margin-top: 8px;
+       color: black;
+   }
+.bodytext{
+    margin-top: -25px;
+    
+}
+   
+       
+   

@@ -1,0 +1,111 @@
+.modal.show{
+  display: block;
+  
+}
+.modal-header {
+  background-color: #F4F4F4; }
+
+.actv-node {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.012cm;
+    display: inline-block;
+    margin: 0;
+    margin-top: 20px;
+    text-transform: uppercase; }
+
+    
+    .reload-btn {
+      font-weight: 600;
+      border: 2px solid #45a1e2 ;
+      margin-left:0;
+      z-index: 1;
+      font-size: 14px;
+      color: #45a1e2;
+      line-height: 16px;
+      padding: 10px 15px;
+      border-radius: 50px !important;
+      min-width: 130px;
+      background: white;
+    
+
+  }
+  .btn-primary{
+    background-color: white;
+    color: #45a1e2;
+    font-weight: 600;
+    border: 0;
+    
+
+
+
+  }
+      .btn-primary:hover {
+          background-color: black;
+          color: white;
+      }
+ .tablebackground{
+   background-color: white;
+   padding: 40px;
+   
+   margin-top: 10px;
+
+ }
+ .backcolor{
+   background-color: #F4F4F4 ;
+ }
+ .col-lg-12{
+padding-left: 50px;
+padding-right: 50px;}
+
+ .row{
+  color: #45a1e2;
+ }
+ .table-striped{
+   border-top: #45a1e2 1px solid;
+   
+ }
+ .static-stats-wrapper {
+  margin-top: 40px;
+  z-index: 1;
+  float: none; }
+  .block-explorer {
+    color: black;
+      padding-top: 20px;
+    background-color: #F4F4F4;
+    border-left: #065296 solid;
+
+    border-bottom: 10px white solid;
+    height: 130px;
+    width: 100px;
+    border-right: 15px white solid;
+   }
+   .block-btns {
+    padding: 40px 7px 0; 
+  margin-left: 20px;}
+    .block-btns button {
+      margin-right: 25px;
+      position: relative;
+      border: none;
+      font-weight: 600;
+      z-index: 1;
+      font-size: 14px;
+      color: #e72d45;
+      line-height: 16px;
+      padding: 10px 15px;
+      border-radius: 50px !important;
+      min-width: 130px;
+      background: #e72d45;
+      background: linear-gradient(135deg, #065296 24%,  #45a1e2 42%, #ed5d31 53%, #f28c1e 77%, #f3931b 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e72d45', endColorstr='#f3931b',GradientType=1 ); }
+   .block-btns button:after {
+      position: absolute;
+      content: '';
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
+      background: #fff;
+      top: 2px;
+      left: 2px;
+      z-index: -1;
+      border-radius: 50px;
+      padding: 5px 10px; }

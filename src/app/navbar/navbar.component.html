@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+          <div class="header-wrapper">
+              <div class="navbar-header">
+               
+         
+          <a class="" href="#" > <img src = "assets/CPC_Logo_white.png"  style="margin-left:20px;margin-top:10px;height:40px;"></a>
+
+
+
+<div style="margin-left: 300px;"class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <ul class="navbar-nav">
+    <li class="nav-item " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link" routerLink="" >Blocks </a>
+    </li>
+    <li class="nav-item  " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link" routerLink="/transaction" >Transaction</a>
+    </li>
+    <li class="nav-item " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link" routerLink="/unconfirmed">Unconfirmed</a>
+    </li>
+   
+      <li class="nav-item " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link" routerLink="/distribution">Distribution</a>
+    </li>
+    <li>
+      <div style=""class="search-container">
+        <form action="/search" method="get">
+          <input class="search expandright" id="searchright" type="search" name="q" placeholder="Enter Wallet ID or Transaction ID">
+          <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+      </div>
+        
+    </li>
+    
+    
+    
+    
+    
+  
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
